@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>FloatingLyrics</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../FloatingLyrics.Core/FloatingLyrics.Core.csproj" />
+    <ProjectReference Include="../FloatingLyrics.Media/FloatingLyrics.Media.csproj" />
+    <ProjectReference Include="../FloatingLyrics.Lyrics/FloatingLyrics.Lyrics.csproj" />
+    <ProjectReference Include="../FloatingLyrics.Platform/FloatingLyrics.Platform.csproj" />
+    <ProjectReference Include="../FloatingLyrics.Infrastructure/FloatingLyrics.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0" />
+  </ItemGroup>
+</Project>

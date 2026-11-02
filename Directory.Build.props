@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <Version>0.1.0</Version>
+    <Authors>Floating Lyrics contributors</Authors>
+    <Copyright>Copyright (c) 2026 Floating Lyrics contributors</Copyright>
+  </PropertyGroup>
+</Project>
